@@ -1,0 +1,33 @@
+<meta property="og:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+<meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+
+<meta name="author" content="{{ site.author }}">
+<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+<meta property="og:type" content="website">
+<meta property="twitter:creator" content="{{ site.twitter }}">
+<meta property="twitter:site" content="{{ site.twitter }}">
+
+<!-- TWITTER CARD -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="{{ site.twitter }}">
+<meta name="twitter:creator" content="{{ site.twitter }}">
+
+<!-- METADATA / OG / TWITTER -->
+{% if page.desc %}
+<meta name="description" content="{{ page.desc | strip_html | strip_newlines | truncate: 160 }}" >
+<meta property="og:description" content="{{ page.desc | strip_html | strip_newlines | truncate: 160 }}">
+<meta name="twitter:description" content="{{ page.desc | strip_html | strip_newlines | truncate: 160 }}">
+{% else %}
+<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_newlines | truncate: 160 }}{% endif %}">
+<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_newlines | truncate: 160 }}{% endif %}">
+<meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_newlines | truncate: 160 }}{% endif %}">
+{% endif %}
+
+{% if page.image %}
+{% capture meta_img %}/assets/images/posts/{{ page.image }} {% endcapture %}
+<meta property="og:image" content="{{ site.url }}{{ meta_img }}">
+<meta name="twitter:image" content="{{ site.url}}{{ meta_img }}">
+{% else %}
+<meta property="og:image" content="{{ site.url }}/images/thebolter.jpg">
+<meta name="twitter:image" content="{{ site.url }}/images/thebolter.jpg">
+{% endif %}

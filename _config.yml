@@ -17,13 +17,21 @@ title: The Bolter
 author: TechMill Denton
 description: A free crash course into web development.
 avatar: profile.png
+
 email: info@techmilldenton.com
+facebook: techmilldenton
 github: techmilldenton # username
 twitter: techmilldenton
+
 #Comment out if you don't want disqus 
 disqus: techmill
 google_analytics: UA-51772036-5
 
+# Collections
+collections:
+  homework:
+    output: true
+    permalink: /:collection/:name
 
 # needed for travis-ci build
 exclude: [vendor]
