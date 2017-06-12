@@ -27,11 +27,11 @@ _Complete the following exercises in your computer's Terminal shell:_
 
 3.  Now let's figure out what directories reside in our home directory by running the command `$ ls` to list all of the directories and files in the current working directory.
 
-4.  Move into the _Desktop_ directory by running the command `$ cd <span class="typ">Desktop`. Now run `$ ls` again to see all of the files and folders located on your computer's desktop.
+4.  Move into the _Desktop_ directory by running the command `$ cd Desktop`. Now run `$ ls` again to see all of the files and folders located on your computer's desktop.
 
 5.  Now that we have entered a few commands, use the _up_ and _down_ arrow keys to navigate to previous commands you've entered.
 
-6.  Let's make a new folder on the desktop. Run `$ pwd` to make sure you are in the Desktop directory. If not, navigate to the _Desktop_ directory by running `$ cd <span class="typ">Desktop`.
+6.  Let's make a new folder on the desktop. Run `$ pwd` to make sure you are in the Desktop directory. If not, navigate to the _Desktop_ directory by running `$ cd Desktop`.
 
 7.  Then, run `$ mkdir test`. This will make a new directory on your desktop called _test_. Take a look and make sure it is there! You can make multiple directories at the same time by putting a _space_ between the directories names. For example, `$ mkdir test test2`.
 
@@ -39,7 +39,7 @@ _Complete the following exercises in your computer's Terminal shell:_
 
 9.  Run `$ touch file1 file2` to create two new files within the _test_ directory called _file1_ and _file 2_. The `touch` command creates a new, empty file.
 
-*   If you're using Windows PowerShell, you can use the command `>  <span class="typ">New-<span class="typ">Item` or the alias `> ni` instead of `$ touch`. (Note that, by default, Windows will only let you create one new file at a time.)
+*   If you're using Windows PowerShell, you can use the command `>  New-Item` or the alias `> ni` instead of `$ touch`. (Note that, by default, Windows will only let you create one new file at a time.)
 
 1.  Type `ls` to make sure that the files are there. Just like making directories, you can make multiple files at the same time.
 
@@ -49,8 +49,8 @@ _Complete the following exercises in your computer's Terminal shell:_
 
 4.  Let's remove the `test` directory. Run `$ rm test`.
 
-5.  You should get the error `rm: test:  <span class="kwd">is a directory`. This means that because there are files in the directory, you can't just delete it without deleting all of the files first. To do that, run the command `$ rm -r test`. This will use the **recursive** option to instruct the computer to delete everything in the `test` folder, including the folder itself.
+5.  You should get the error `rm: test:  is a directory`. This means that because there are files in the directory, you can't just delete it without deleting all of the files first. To do that, run the command `$ rm -r test`. This will use the **recursive** option to instruct the computer to delete everything in the `test` folder, including the folder itself.
 
-6.  Now let's exit the terminal by typing `$ <span class="kwd">exit`.
+6.  Now let's exit the terminal by typing `$ exit`.
 
 **More command line (terminal) practice on your own:** Make a folder on your desktop that contains 3 subfolders and in each of those subfolders add in 3 individual files. Get comfortable doing this step by step, but then try to do it in as few commands as possible. Then go through and practice deleting files and folders. Make sure you're comfortable navigating around and creating and deleting both files and directories before moving on.
