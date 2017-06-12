@@ -175,4 +175,28 @@ div.footer{
   height: 50px;
   padding-bottom: 15px;
   
-}*/
+  }*/
+
+  /* Homework */
+  .homework {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+    // border: 1px solid rgba(230, 158, 67, 0.5);
+    border-radius: 3px;
+    text-align: center;
+    padding: 1em 1em 0.5em;
+    transition: all 0.5s
+  }
+  .homework:hover {
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
+    transition: all 0.25s;
+  }
+  .homework:hover a {
+    text-decoration: none
+  }
+  .homework .icon {
+    color: #e69e43;
+    font-size: 48px;
+  }
+  .homework .title {
+    color: #666;
+  }

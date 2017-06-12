@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Getting Started"
-tags: 
+tags:
 date: 2017-06-11T00:35:15-05:00
 ---
 Welcome to TechMill's latest initiative, The Bolter - a free intro to web development course brought to you by LearnHowToProgram.com. This site is a step-by-step reference guide for the course that takes you from zero experience to web programmer in a few short months, and contains everything you need, including lessons and practice exercises. The content is the curriculum for Epicodus, a school for people who want to change careers into programming.

@@ -1,13 +1,14 @@
 ---
 layout: layout
 title: Blog
+permalink: /course
 ---
 
 <div class="container">
 <h3>Archive</h3>
   <div class="panel panel-default">
     <div class="panel-body">
-		{% for post in site.posts %}
+		{% for post in site.posts reversed %}
 			<div class="row">
 				 <div class="col-sm-4 col-md-4 col-lg-4">
 					 <h5 style="text-align: right">

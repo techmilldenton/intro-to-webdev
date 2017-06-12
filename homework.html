@@ -1,0 +1,21 @@
+---
+layout: page
+title: Homework
+permalink: /homework/
+---
+<div class="row">
+	{% for hw in site.homework %}
+	<div class="homework col-md-3">
+		<a href="{{ hw.url }}" class="link">
+			<div class="icon">
+				{% capture ic %}{% if hw.icon %}{{ hw.icon }}{% else %}file-text-o{% endif %}{% endcapture %}
+				<i class="fa fa-{{ ic }}"></i>
+			</div>
+			<hr>
+			<h3 class="title">{{ hw.title }}</h3>
+		</a>
+	</div>
+	{% endfor %}
+</div>
+
+
