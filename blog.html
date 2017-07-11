@@ -5,23 +5,22 @@ permalink: /course
 ---
 
 <div class="container">
-<h3>Archive</h3>
-  <div class="panel panel-default">
-    <div class="panel-body">
+	<h1>Courses</h1>
+	<h4>List of sections we will cover throughout the course.</h4>
+	{% assign counter = 0 %}
+	<div class="row">
 		{% for post in site.posts reversed %}
-			<div class="row">
-				 <div class="col-sm-4 col-md-4 col-lg-4">
-					 <h5 style="text-align: right">
-					 	{{ post.date | date: "%B %e, %Y" }}
-					 </h5>
-				 </div>
-				 <div class="col-sm-8 col-md-8 col-lg-8">
-					 <h5 style="text-align: left">
-					 	<strong><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></strong>
-					 </h5>
-				 </div>
+		{% unless item.published == false %}{% assign counter=counter | plus:1 %}{% endunless %}
+		<div class="col-md-4">
+			<div class="panel panel-default">
+				<div class="panel-header">
+					<h5><strong><a href="{{ site.baseurl }}{{ post.url }}">{{ counter }}. {{ post.title }}</a></strong></h5>
+				</div>
+				<div class="panel-body">
+					<p>{{ post.excerpt | truncate: 140 }}</p>
+				</div>
 			</div>
-	    {% endfor %}
+		</div>
+		{% endfor %}
 	</div>
-  </div>
 </div>

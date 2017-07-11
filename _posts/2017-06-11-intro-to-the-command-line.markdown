@@ -40,27 +40,27 @@ There are many options available, but we recommend using a terminal program call
 
 When you first open the terminal, you should see a short snippet of text followed by a grey or blinking rectangle. This rectangle is your cursor. Where the cursor is located is the command line itself, where we will type and execute commands.
 
-The snippet of text left of the cursor is the command line **prompt**. This prompt contains some brief contextual information, such as the user account you're currently logged into the computer with, and your current location. For instance, the prompts on Epicodus computers will look something like this:
+The snippet of text left of the cursor is the command line **prompt**. This prompt contains some brief contextual information, such as the user account you're currently logged into the computer with, and your current location.
 
-    epicodus-5:~ Guest$ 
+    techmill-5:~ Guest$ 
 
 In the example above:
 
-*   `<span class="pln">epicodus</span><span class="pun">-</span><span class="lit">5</span>` is the nickname of the computer we're using.
+*   `techmill-5` is the nickname of the computer we're using.
 
-*   `<span class="pun">~</span>` denotes that our current location is the home directory.
+*   `~` denotes that our current location is the home directory.
 
-*   `<span class="typ">Guest</span>` informs us we're logged into an account named `<span class="typ">Guest</span>`.
+*   `Guest` informs us we're logged into an account named `Guest`.
 
-*   This is all followed by a dollar sign `<span class="pln">$</span>`. This symbol denotes the end of the prompt and the beginning of the command line.
+*   This is all followed by a dollar sign `$`. This symbol denotes the end of the prompt and the beginning of the command line.
 
 Also, not all prompts look the exact same. Depending on the nickname of your machine, and the name of your user account, your own command line prompt will differ. So don't worry if yours appears different from the example above; that's completely normal.
 
 ### Command Line Command Notation
 
-When command line commands are written; whether here in our curriculum, or in other resources throughout the web, they are often preceded by a `<span class="pln">$</span>`.
+When command line commands are written; whether here in our curriculum, or in other resources throughout the web, they are often preceded by a `$`.
 
-This simply means the command is meant to be executed in the command line. The dollar sign is the common notation to communicate this because, as we just learned, most terminals display a dollar sign `<span class="pln">$</span>` at the end of the prompt, right before the command line.
+This simply means the command is meant to be executed in the command line. The dollar sign is the common notation to communicate this because, as we just learned, most terminals display a dollar sign `$` at the end of the prompt, right before the command line.
 
 When you see this symbol preceding a command, know that you are not required to _literally type_ a dollar sign into the command line. You will only type the command listed _after_ the dollar sign. The dollar sign simply denotes that the command is meant to be executed in the command line.
 
