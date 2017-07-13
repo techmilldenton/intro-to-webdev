@@ -4,12 +4,6 @@ title: "Git & Github"
 tags: 
 date: 2017-07-13T18:01:38-05:00
 ---
----
-layout: post
-title: "Git & Github"
-tags: 
-date: 2017-07-13T18:01:38-05:00
----
 When we get started writing a new program, the last thing we want to happen is to lose any of our hard work. To prevent this from happening, we will save versions of our code on our computer AND also save a version of our code on a location on the web. We will learn to manage these different versions of our code using two tools: **Git** and **GitHub**.
 
 ### Git
