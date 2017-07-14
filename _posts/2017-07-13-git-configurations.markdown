@@ -11,10 +11,8 @@ To make Git use the Atom text editor to interact with you instead of **vim** (or
 
 (for Windows machines, make sure you're running these commands in the git-bash program you installed in this lesson):
 
-```
-$ echo "export EDITOR='atom -w'" >> ~/.bash_profile
-$ source ~/.bash_profile
-```
+```$ echo "export EDITOR='atom -w'" >> ~/.bash_profile```
+```$ source ~/.bash_profile```
 
 ### Configure Color Output
 Setting this **global** configuration will color code Git information in the terminal for easier reading:
