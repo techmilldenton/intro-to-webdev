@@ -39,7 +39,7 @@ _Complete the following exercises in your computer's Terminal shell:_
 
 9.  Run `$ touch file1 file2` to create two new files within the _test_ directory called _file1_ and _file 2_. The `touch` command creates a new, empty file.
 
-*   If you're using Windows PowerShell, you can use the command `>  New-Item` or the alias `> ni` instead of `$ touch`. (Note that, by default, Windows will only let you create one new file at a time.)
+    *   If you're using Windows PowerShell, you can use the command `>  New-Item` or the alias `> ni` instead of `$ touch`. (Note that, by default, Windows will only let you create one new file at a time.)
 
 1.  Type `ls` to make sure that the files are there. Just like making directories, you can make multiple files at the same time.
 
