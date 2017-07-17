@@ -60,3 +60,9 @@ In this reference, examples in brackets `[xxx]`, should be entirely replaced by 
 #### Reviewing Git Information
 * `git log` - Lists commit history for the current branch.
 * `git status` - Lists the files where changes have been made to be committed.
+
+## 3. Git-It workshop
+****
+For anyone who wants more practice and understanding of Git, I would recommend you run through the Git-It workshop. This will take you through creating repos, making branches, and even submitting pull requests. Check it out!
+
+#### [Git-It workshop on GitHub](https://github.com/jlord/git-it-electron)
