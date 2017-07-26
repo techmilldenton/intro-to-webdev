@@ -3,6 +3,7 @@ layout: post
 title: "Git Configurations"
 tags:
 date: 2017-07-13T18:27:49-05:00
+class: height-180
 ---
 After installing Git, we recommend a few Git configurations that will make using Git on your device.
 
