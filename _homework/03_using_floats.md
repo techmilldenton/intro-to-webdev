@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Using Floats"
+title: "03 - Using Floats"
 ---
 
 Intro to Programming (Evening)  Git, HTML & CSS Practice: Using Floats

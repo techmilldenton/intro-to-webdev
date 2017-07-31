@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Command Line"
+title: "01 - Command Line"
 icon: terminal
 ---
 ## Warm up
