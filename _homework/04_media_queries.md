@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "04 - Media Queries"
+icon: columns
 ---
 
 **Goal**: Practice implementing media queries into your own sites to ensure your content is polished and easily-readable on all screen sizes.

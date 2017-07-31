@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Media Queries and Resonsive Design"
+title: "Media Queries and Responsive Design"
 tags:
 date: 2017-07-30T19:16:46-05:00
 ---
